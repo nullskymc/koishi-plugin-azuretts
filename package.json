@@ -5,6 +5,7 @@
   "contributors": [
     "nullskymc <nullskymc@hotmail.com>"
   ],
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nullskymc/koishi-plugin-azuretts.git"
@@ -23,5 +24,8 @@
   ],
   "peerDependencies": {
     "koishi": "^4.18.0"
+  },
+  "dependencies": {
+    "pub": "^0.2.0"
   }
 }
