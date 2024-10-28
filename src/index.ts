@@ -8,7 +8,7 @@ export * from './config';
 
 export function apply(ctx: Context, config: Config) {
   const vits = new AzureVits(ctx, config);
-  ctx.plugin(AzureVits, vits); // 确保插件注册正确
+  ctx.plugin(AzureVits, config);
 
   ctx.command('azuretts <text>', 'Convert text to speech')
     .action(async ({session}, text) => {

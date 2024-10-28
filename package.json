@@ -1,7 +1,7 @@
 {
   "name": "@nullskymc/koishi-plugin-azuretts",
   "description": "Azure TTS plugin for Koishi,文本转语音插件",
-  "version": "0.0.7beta",
+  "version": "0.0.8",
   "contributors": [
     "nullskymc <nullskymc@hotmail.com>"
   ],

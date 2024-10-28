@@ -44,7 +44,6 @@ export class AzureVitsService {
 }
 
 export class AzureVits extends Vits {
-    private logger: Logger;
 
     constructor(ctx: Context, public config: Config) {
         super(ctx);

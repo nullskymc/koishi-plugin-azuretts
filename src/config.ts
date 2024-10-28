@@ -6,6 +6,12 @@ export interface Config {
   voiceName: string;
 }
 
+export const usage =
+  `
+    Azure文本转语音插件，相关信息请前往Azure注册获取。
+    模型名称参考：https://speech.microsoft.com/
+  `
+
 
 // 中文config
 export const Config: Schema<Config> = Schema.object({
@@ -15,5 +21,5 @@ export const Config: Schema<Config> = Schema.object({
 });
 
 export const inject = {
-    optional: ['vits'],
+  optional: ['vits'],
 };
